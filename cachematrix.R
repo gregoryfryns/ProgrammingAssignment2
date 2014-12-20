@@ -10,8 +10,8 @@
 #                                         # (from the cache this time)
 
 
-## makeCacheMatrix creates a cached version of the matrix given as an input
-## This cached version can store the matrix's inverse. It generates a vector 
+## makeCacheMatrix creates a cached version of the matrix given as an argument.
+## This cached version can store the matrix's inverse. It returns a vector 
 ## of functions that can
 ##   1. set the matrix value in the cache
 ##   2. get the matrix from the cache
